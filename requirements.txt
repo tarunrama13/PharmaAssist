@@ -5,10 +5,9 @@ pysqlite3-binary
 langchain
 langchain-core
 langchain-community
-langgraph
 lark
 tiktoken
-streamlit
-pypdf
-ollama
+anthropic
+python-multipart
+langchain-anthropic
 sentence-transformers

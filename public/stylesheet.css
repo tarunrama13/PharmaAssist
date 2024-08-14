@@ -1,0 +1,4 @@
+element.style {
+    height: 100px !important;; /* Set your desired height */
+    width: auto!important;;   /* Maintain aspect ratio */
+}
