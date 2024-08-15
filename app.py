@@ -1,3 +1,6 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 from langchain.embeddings import HuggingFaceEmbeddings,OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain_community.llms.ollama import Ollama
