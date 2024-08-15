@@ -11,3 +11,4 @@ anthropic
 python-multipart
 langchain-anthropic
 sentence-transformers
+chainlit
